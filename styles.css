@@ -9,7 +9,19 @@ body{
   background-color: rgb(255, 198, 51);
   cursor: url("./cursor.svg"), auto;
   transition: 0.5s;
+  flex-direction: column-reverse;
+
 }
-img{
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-items: center;  
+  font-family: 'Roboto', sans-serif;
+  color: green;
+  font-weight: 700;
+  
+}
+svg{
   width: 200px;
 }
