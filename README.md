@@ -8,7 +8,7 @@ My first steps in JavaScript 😊
 
 ## Preview 
 
-![..](https://github.com/alucart2005/littleJS_mouse/blob/main/preview.jpg?raw=true)
+![..](https://github.com/alucart2005/littleJS_mouse/blob/main/img/preview.jpg?raw=true)
 
 ## Hiring 
 If you want to hire me you can write to napoleonanaya@gmail.com
