@@ -18,9 +18,14 @@ function mouseMove(e) {
 }
 
 const followCursor = (el, xrelation, yrelation) => {
-  
+  const elOffset = el.getBoundingClientRect();
+  const centerX = elOffset.x + elOffset.width / 2;
+  const centerY = elOffset.y + elOffset.height / 2;
+  const distanceLeft = Math.round(((cursorPos.x - centerX)*100)/window.innerWidth);
+  const distanceTop = Math.round(((cursorPos.y - centerY)*100)/window.innerHeight);
+  e.style.transform = `translate(${xrelation * distanceLeft}px, ${yrelation * distanceTop}px)`;
 };
 
 const follow = () => {
-  if (ears)
+  if (ears) 
 }
